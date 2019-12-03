@@ -1,0 +1,13 @@
+# CentOS 限制特定IP登录ssh
+
+编辑 /etc/hosts.allow, 在最后加入允许的ip
+$ vim /etc/hosts.all
+
+	sshd:10.234.23.2:allow // 允许 IP 10.234.23.2 登录
+	sshd:10.234.33.*:allow // 允许 IP 10.234.33 网段登录
+	sshd:10.*.*.*:allow // 允许 10 段 IP 地址登录
+
+$ vim /etc/hosts.deny
+	
+	sshd:all // 禁止其他的所有 IP 登录（也可以在hosts.allow中设置）
+
