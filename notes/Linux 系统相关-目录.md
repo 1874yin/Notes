@@ -1,14 +1,7 @@
 - [常见高危端口](./1.常见高危端口.md)
-
 - [限制特定 ip 登录服务器](./2.限制特定ip登录服务器.md)
-
 - [CentOS 7 防火墙使用](./3.CentOS7防火墙使用.md)
-
-<<<<<<< HEAD
-- [CentOS 7 clamav 安装与使用(yum方式)](./4.CentOS 下 clamav 安装与使用（yum方式）.md)
-=======
-- [CentOS 7 clamav 安装与使用(yum方式)](4.CentOS 下 clamav 安装与使用（yum方式）.md)
->>>>>>> 616fc189dda0180600bdf88364238acdde191ca6
+- [CentOS 下 clamav 安装与使用(yum方式)](./4.CentOS 下 clamav 安装与使用（yum方式）.md)
 
 - [Linux 的用户，组和权限管理](./5.Linux 的用户、组、权限管理.md)
 
@@ -23,3 +16,4 @@
 - [Linux 下 rpm，yum 和源码安装](./10.Linux 下rpm, yum和源码安装.md)
 
   
+
