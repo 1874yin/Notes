@@ -14,8 +14,9 @@
 
 - [Linux 关于账户的几个命令](8.Linux 关于账户的几个命令.md)
 
-- [Linux 登录超时设置](9.Linux 设置用户超时.md)
+- [Linux 登录超时设置](9.Linux 登录超时设置.md)
 
 - [Linux 下 rpm，yum 和源码安装](10.Linux 下rpm, yum和源码安装.md)
 
   
+
