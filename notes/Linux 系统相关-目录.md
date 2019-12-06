@@ -4,7 +4,7 @@
 
 - [CentOS 7 防火墙使用](./3.CentOS7防火墙使用.md)
 
-- [CentOS 7  clamav 安装与使用(yum方式)](4.CentOS 下 clamav 安装与使用（yum方式）.md)
+- [CentOS 7 clamav 安装与使用(yum方式)](4.CentOS 下 clamav 安装与使用（yum方式）.md)
 
 - [Linux 的用户，组和权限管理](4.CentOS 下 clamav 安装与使用（yum方式）.md)
 
