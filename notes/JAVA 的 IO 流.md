@@ -12,7 +12,7 @@
 
 ## 结构图
 
-<img src="../pics/IOstream.png" alt="IOstream" style="zoom:50%;" align="left"/>
+<img src="../pics/1575887480041.jpg" alt="IOstream" style="zoom:50%;" align="left"/>
 
 
 
