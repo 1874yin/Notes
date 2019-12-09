@@ -14,3 +14,6 @@
 
 <img src="../pics/IOstream.png" alt="IOstream" style="zoom:50%;" align="left"/>
 
+### 基本使用
+
+**字节流操作**
