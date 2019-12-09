@@ -10,5 +10,5 @@
 
 ### 结构图
 
-<img src="/Volumes/MACDATA/github/Notes/pics/IOstream.png" alt="IOstream" style="zoom:50%;" align="left"/>
+<img src="../pics/IOstream.png" alt="IOstream" style="zoom:50%;" align="left"/>
 
