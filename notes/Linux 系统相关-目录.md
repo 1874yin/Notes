@@ -9,7 +9,7 @@
 
 - [Linux 密码复杂度设置](https://github.com/1874yin/Notes/blob/master/notes/6.Linux%20%E5%AF%86%E7%A0%81%E5%A4%8D%E6%9D%82%E5%BA%A6%E8%AE%BE%E7%BD%AE.md)
 
-- [Linux 用户登录失败处理](https://github.com/1874yin/Notes/blob/master/notes/7.Linux 用户登录失败处理.md)
+- [Linux 用户登录失败处理](https://github.com/1874yin/Notes/blob/master/notes/7.Linux%20%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95%E5%A4%B1%E8%B4%A5%E5%A4%84%E7%90%86.md)
 
 - [Linux 关于账户的几个命令](https://github.com/1874yin/Notes/blob/master/notes/8.Linux%20%E5%85%B3%E4%BA%8E%E8%B4%A6%E6%88%B7%E7%9A%84%E5%87%A0%E4%B8%AA%E5%91%BD%E4%BB%A4.md)
 
