@@ -1,0 +1,57 @@
+docker 命令(Ubuntu)
+
+一、安装
+https://docs.docker.com/desktop/install/linux-install/
+
+二、入门
+1.查看docker状态
+sudo docker info
+
+2.使用镜像创建并运行容器
+sudo docker run -i -t ubuntu /bin/bash
+分析：
+ -i 保证容器中 STDIN 开启
+ -t 为要创建的容器分配一个伪tty终端，提供交互式shell
+ -d 容器创建后放到后台运行
+ ubuntu 基于ubuntu镜像来创建容器
+ /bin/bash 容器创建后运行什么命令，这里启动了一个shell
+输出内容：
+root@af2ada00a8b1:/#
+
+输入 exit 退出bash，这时容器也随之停止运行。
+
+3.查看容器
+sudo docker ps
+查看正在运行的容器。
+sudo docker ps -a
+查看当前系统中容器列表，包括正在运行和已经停止的。
+sudo docker ps -l
+查看最后一次运行的容器。
+
+4.容器命名
+sudo docker run --name bob_the_container -it ubuntu /bin/bash
+
+5.重新启动停止的容器
+sudo docker start bob_the_container
+分析：docker run 和 docker start的区别在于：run是运行一个镜像，生成容器并启动。star是启动一个之前生成过的容器。
+
+6.附着到容器上（切换到容器里面操作）
+sudo docker attach bob_the_container
+分析：重新启动的容器会沿用 docker run 命令时指定的参数来运行，因此会运行一个shell，可以使用attach命令重新附着到容器上操作。
+
+7.创建守护容器
+sudo docker run --name daemon_dave -d ubuntu /bin/sh -c "while true; do echo hello world; sleep 1; done"
+除了交互式运行的容器，还可以创建长期运行的容器，适合运行应用程序和服务。
+
+8.查看容器内部日志
+sudo docker logs daemon_dave
+
+9.查看容器内进程
+sudo docker top daemon_dave
+
+10.在容器内部运行进程
+后台进程：sudo docker exec -d daemon_dave touch /etc/new_config_file
+交互进程：sudo docker exec -it daemon_dave /bin/bash
+
+11.停止守护容器
+sudo docker stop daemon_dave
